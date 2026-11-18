@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB307F6E95D493696F78E892 /* ScreenViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E88E365CCED8B1E3D4D73 /* ScreenViewerApp.swift */; };
+		92C3EB7475DC3BAE48A59BC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FC88C0EFC737A36FE505BD /* ContentView.swift */; };
+		E0A13ACF58BCD72D1C31E183 /* SettingsOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528EA96900D09E29185A3EE /* SettingsOpener.swift */; };
+		D962FF72E0D9A78B3DCF17CF /* SetupContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF67EB4774AED392CAE574 /* SetupContent.swift */; };
+		544FBCE8F7E17E50B626D9DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00211DA606EDDA4B237806BC /* Assets.xcassets */; };
+		4D5F83F2798146DCD4FF9CA8 /* SettingsOpenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7947E197787C0738F8F7C757 /* SettingsOpenerTests.swift */; };
+		5A1B2C3D4E5F60718293A4B6 /* PhoneChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B2C3D4E5F60718293A4B5 /* PhoneChrome.swift */; };
+		5A1B2C3D4E5F60718293A4C6 /* USBMirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1B2C3D4E5F60718293A4C5 /* USBMirror.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D7CB0A92C22AEBD614733F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 698EFBD69F4A56487E3CBE16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E46C432E7ADFBFCD7AA4B9C;
+			remoteInfo = ScreenViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		275E88E365CCED8B1E3D4D73 /* ScreenViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewerApp.swift; sourceTree = "<group>"; };
+		02FC88C0EFC737A36FE505BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8528EA96900D09E29185A3EE /* SettingsOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOpener.swift; sourceTree = "<group>"; };
+		2DCF67EB4774AED392CAE574 /* SetupContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupContent.swift; sourceTree = "<group>"; };
+		00211DA606EDDA4B237806BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA85263653F3DFAB03410F4 /* ScreenViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenViewer.entitlements; sourceTree = "<group>"; };
+		7947E197787C0738F8F7C757 /* SettingsOpenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOpenerTests.swift; sourceTree = "<group>"; };
+		A535B5C0C1D3EE1AAA4626D2 /* ScreenViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B21149F120E35E9BDE1C3F /* ScreenViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1B2C3D4E5F60718293A4B5 /* PhoneChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneChrome.swift; sourceTree = "<group>"; };
+		5A1B2C3D4E5F60718293A4C5 /* USBMirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBMirror.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D527D75EA640E37C77E8BF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92DD83E5AFD0DE3D8CA069E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0A4BEB27B59FA06D73F39E = {
+			isa = PBXGroup;
+			children = (
+				4758C94679E43B83F5FC49A3 /* ScreenViewer */,
+				B4F2605A6B3D7BB7D9137236 /* ScreenViewerTests */,
+				CDCC14998225A6A4898FCC6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4758C94679E43B83F5FC49A3 /* ScreenViewer */ = {
+			isa = PBXGroup;
+			children = (
+				275E88E365CCED8B1E3D4D73 /* ScreenViewerApp.swift */,
+				02FC88C0EFC737A36FE505BD /* ContentView.swift */,
+				5A1B2C3D4E5F60718293A4B5 /* PhoneChrome.swift */,
+				5A1B2C3D4E5F60718293A4C5 /* USBMirror.swift */,
+				8528EA96900D09E29185A3EE /* SettingsOpener.swift */,
+				2DCF67EB4774AED392CAE574 /* SetupContent.swift */,
+				00211DA606EDDA4B237806BC /* Assets.xcassets */,
+				3FA85263653F3DFAB03410F4 /* ScreenViewer.entitlements */,
+			);
+			path = ScreenViewer;
+			sourceTree = "<group>";
+		};
+		B4F2605A6B3D7BB7D9137236 /* ScreenViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7947E197787C0738F8F7C757 /* SettingsOpenerTests.swift */,
+			);
+			path = ScreenViewerTests;
+			sourceTree = "<group>";
+		};
+		CDCC14998225A6A4898FCC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A535B5C0C1D3EE1AAA4626D2 /* ScreenViewer.app */,
+				C5B21149F120E35E9BDE1C3F /* ScreenViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E46C432E7ADFBFCD7AA4B9C /* ScreenViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FB6C2020D53755436E1CEF /* Build configuration list for PBXNativeTarget "ScreenViewer" */;
+			buildPhases = (
+				D1319B87AF894AB28E51C1F9 /* Sources */,
+				D527D75EA640E37C77E8BF67 /* Frameworks */,
+				B04F2A80B935EAB7130E8351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenViewer;
+			productName = ScreenViewer;
+			productReference = A535B5C0C1D3EE1AAA4626D2 /* ScreenViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E6E8E4A56EBEA5FAF3A274 /* ScreenViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05443AB3EB4935B433BB5827 /* Build configuration list for PBXNativeTarget "ScreenViewerTests" */;
+			buildPhases = (
+				A256E7DB5B062341DA180FBC /* Sources */,
+				A92DD83E5AFD0DE3D8CA069E /* Frameworks */,
+				988C429794A4EB9680D200AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3419883D9A48AF544E386DD9 /* PBXTargetDependency */,
+			);
+			name = ScreenViewerTests;
+			productName = ScreenViewerTests;
+			productReference = C5B21149F120E35E9BDE1C3F /* ScreenViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		698EFBD69F4A56487E3CBE16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2E46C432E7ADFBFCD7AA4B9C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					12E6E8E4A56EBEA5FAF3A274 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2E46C432E7ADFBFCD7AA4B9C;
+					};
+				};
+			};
+			buildConfigurationList = E741B9E9F85BC643B7A7518C /* Build configuration list for PBXProject "ScreenViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0A4BEB27B59FA06D73F39E;
+			productRefGroup = CDCC14998225A6A4898FCC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E46C432E7ADFBFCD7AA4B9C /* ScreenViewer */,
+				12E6E8E4A56EBEA5FAF3A274 /* ScreenViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04F2A80B935EAB7130E8351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544FBCE8F7E17E50B626D9DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988C429794A4EB9680D200AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1319B87AF894AB28E51C1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB307F6E95D493696F78E892 /* ScreenViewerApp.swift in Sources */,
+				92C3EB7475DC3BAE48A59BC8 /* ContentView.swift in Sources */,
+				5A1B2C3D4E5F60718293A4B6 /* PhoneChrome.swift in Sources */,
+				5A1B2C3D4E5F60718293A4C6 /* USBMirror.swift in Sources */,
+				E0A13ACF58BCD72D1C31E183 /* SettingsOpener.swift in Sources */,
+				D962FF72E0D9A78B3DCF17CF /* SetupContent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A256E7DB5B062341DA180FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5F83F2798146DCD4FF9CA8 /* SettingsOpenerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3419883D9A48AF544E386DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E46C432E7ADFBFCD7AA4B9C /* ScreenViewer */;
+			targetProxy = A0D7CB0A92C22AEBD614733F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED464F7C56A010F9EC692F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B83598E1F883E895EBFB68C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DF2FF57BCBA6183FBBADBAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScreenViewer/ScreenViewer.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iPhone Screen Viewer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Shows your iPhone's screen in this window when it's connected by USB cable.";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iphonescreenviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E74334B662145BA6635A68BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScreenViewer/ScreenViewer.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iPhone Screen Viewer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Shows your iPhone's screen in this window when it's connected by USB cable.";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iphonescreenviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00BA374E306DC59FCBBE69D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iphonescreenviewer.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenViewer";
+			};
+			name = Debug;
+		};
+		F2559EB94F4F896129757F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iphonescreenviewer.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E741B9E9F85BC643B7A7518C /* Build configuration list for PBXProject "ScreenViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED464F7C56A010F9EC692F96 /* Debug */,
+				B83598E1F883E895EBFB68C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FB6C2020D53755436E1CEF /* Build configuration list for PBXNativeTarget "ScreenViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2FF57BCBA6183FBBADBAFE /* Debug */,
+				E74334B662145BA6635A68BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05443AB3EB4935B433BB5827 /* Build configuration list for PBXNativeTarget "ScreenViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BA374E306DC59FCBBE69D3 /* Debug */,
+				F2559EB94F4F896129757F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 698EFBD69F4A56487E3CBE16 /* Project object */;
+}
